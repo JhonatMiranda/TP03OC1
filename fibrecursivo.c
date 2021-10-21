@@ -31,7 +31,7 @@ int main() {
   // Para cada i (de 1 a n), calcula e imprime o
   // i-esimo termo da sequencia de Fibonacci.
   for (i = 1; i <= tamanho; i++) {
-    printf("%d ", fibonacci(i));
+    printf("%d ", fibonaccirecursivo(i));
   }
   printf("\n");
   return(0);
