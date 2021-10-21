@@ -23,25 +23,16 @@ int fibonaccirecursivo(int n) {
   return(x);
 }
 
-// Funcao principal.
+//Funcao principal.
 
-// int main() {
-//   int n,i;
-  
-//   printf("Digite o numero de termos da sequencia: ");
-//   scanf("%d", &n);
-  
-//   while(n <= 0) {
-//     printf("Numero incorreto. Digite o numero de termos da sequencia: ");
-//     scanf("%d", &n);
-//   }
-  
-//   // Para cada i (de 1 a n), calcula e imprime o
-//   // i-esimo termo da sequencia de Fibonacci.
-  
-//   for (i = 1; i <= n; i++) {
-//     printf("%d ", fibonacci(i));
-//   }
-//   printf("\n");
-//   return(0);
-// }
+int main() {
+  int tamanho,i;
+  tamanho=1000;
+  // Para cada i (de 1 a n), calcula e imprime o
+  // i-esimo termo da sequencia de Fibonacci.
+  for (i = 1; i <= tamanho; i++) {
+    printf("%d ", fibonacci(i));
+  }
+  printf("\n");
+  return(0);
+}
