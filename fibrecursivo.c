@@ -8,8 +8,8 @@
 // Funcao recursiva que recebe um inteiro n >= 1
 // devolve o n-esimo termo da sequencia de Fibonacci.
 
-int fibonaccirecursivo(int n) {
-  int x;
+long long int fibonaccirecursivo(int n) {
+  long long int x;
   
   if (n == 1) {
     return(1);
@@ -27,11 +27,11 @@ int fibonaccirecursivo(int n) {
 
 int main() {
   int tamanho,i;
-  tamanho=1000;
+  tamanho=50;
   // Para cada i (de 1 a n), calcula e imprime o
   // i-esimo termo da sequencia de Fibonacci.
   for (i = 1; i <= tamanho; i++) {
-    printf("%d ", fibonaccirecursivo(i));
+    printf("%lld ", fibonaccirecursivo(i));
   }
   printf("\n");
   return(0);

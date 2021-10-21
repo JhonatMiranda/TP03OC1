@@ -1,4 +1,4 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int fibonaccirecursivo(int n);
+long long int fibonaccirecursivo(int n);
