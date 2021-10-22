@@ -1,9 +1,7 @@
-#include "fibrecursivo.h"
+#include "sorting.h"
 // Programa que recebe um inteiro n e calcula os
 // n primeiros termos da sequencia de Fibonacci
 // (usando funcao recursiva).
-
-#include <stdio.h>
 
 // Funcao recursiva que recebe um inteiro n >= 1
 // devolve o n-esimo termo da sequencia de Fibonacci.
