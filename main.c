@@ -2,7 +2,7 @@
 
 int main(){
     int escolha = 0;
-    LOOP:printf("Escolha um metodo: \n1- Fibonacci Recursivo\n2- Bubble Sort\n3- Quick Sort\n4- Radix Sort\n");
+    printf("Escolha um metodo: \n1- Fibonacci Recursivo\n2- Bubble Sort\n3- Quick Sort\n4- Radix Sort\n");
     scanf("%d",&escolha);
     int resposta,i;
     long long int *arr;
@@ -13,7 +13,7 @@ int main(){
             printf("%lld ", fibonaccirecursivo(i));
         }
         printf("\n");
-        goto LOOP;
+        
     }
     else if(escolha == 2){
         resposta=1000;
@@ -21,7 +21,7 @@ int main(){
         random_array(arr, resposta);
         bubbleSort(arr, resposta);
         printArray(arr, resposta);
-        goto LOOP;
+        free(arr);
     }
     else if(escolha == 3){
         resposta=1000;
@@ -29,15 +29,15 @@ int main(){
         random_array(arr, resposta);
         quickSort(arr, resposta);
         printArray(arr, resposta);
-        goto LOOP;
+
     }
-    else if(escolha == 3){
+    else if(escolha == 4){
         resposta=1000;
         arr = (long long int *)malloc(sizeof(long long int) * resposta);
         random_array(arr, resposta);
         radixSort(arr, resposta);
         printArray(arr, resposta);
-        goto LOOP;
+
     }
     else{
         printf("Insira um valor válido!! \n");
