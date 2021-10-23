@@ -61,12 +61,12 @@ void quickSort(long long int *arr, int n)
    ordena(0, n - 1, arr);
 }
 
-int main(){
-    long long int *arr;
-    int resposta = 1000;
-    arr = (long long int *)malloc(sizeof(long long int) * resposta);
-    random_array(arr, resposta);
-    quickSort(arr, resposta);
+// int main(){
+//     long long int *arr;
+//     int resposta = 1000;
+//     arr = (long long int *)malloc(sizeof(long long int) * resposta);
+//     random_array(arr, resposta);
+//     quickSort(arr, resposta);
 
-    printArray(arr, resposta);
-}
+//     printArray(arr, resposta);
+// }

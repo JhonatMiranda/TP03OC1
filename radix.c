@@ -68,12 +68,12 @@ void radixSort(long long int *arr, int n)
     }
 }
 
-int main(){
-    long long int *arr;
-    int resposta = 1000;
-    arr = (long long int *)malloc(sizeof(long long int) * resposta);
-    random_array(arr, resposta);
-    radixSort(arr, resposta);
+// int main(){
+//     long long int *arr;
+//     int resposta = 1000;
+//     arr = (long long int *)malloc(sizeof(long long int) * resposta);
+//     random_array(arr, resposta);
+//     radixSort(arr, resposta);
 
-    printArray(arr, resposta);
-}
+//     printArray(arr, resposta);
+// }

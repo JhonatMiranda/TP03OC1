@@ -23,14 +23,14 @@ long long int fibonaccirecursivo(int n) {
 
 //Funcao principal.
 
-int main() {
-  int tamanho,i;
-  tamanho=50;
-  // Para cada i (de 1 a n), calcula e imprime o
-  // i-esimo termo da sequencia de Fibonacci.
-  for (i = 1; i <= tamanho; i++) {
-    printf("%lld ", fibonaccirecursivo(i));
-  }
-  printf("\n");
-  return(0);
-}
+// int main() {
+//   int tamanho,i;
+//   tamanho=50;
+//   // Para cada i (de 1 a n), calcula e imprime o
+//   // i-esimo termo da sequencia de Fibonacci.
+//   for (i = 1; i <= tamanho; i++) {
+//     printf("%lld ", fibonaccirecursivo(i));
+//   }
+//   printf("\n");
+//   return(0);
+// }
