@@ -136,3 +136,20 @@ void radixSort(long long int *arr, int n)
         countSort(arr, n, exp);
     }
 }
+
+////////////////////////////////////FIBONACCI OTIMIZADO//////////////////////////////////////////////
+
+long long int fibOtimizado(long long int contaPassos, long long int ultimo, long long int penultimo)
+{
+    long long int nthNum = 0;
+    if (contaPassos > 0)
+    {
+        nthNum = ultimo + penultimo;
+        penultimo = ultimo;
+        ultimo = nthNum;
+        contaPassos--;
+        return fibOtimizado(contaPassos, ultimo, penultimo);
+    }
+    printf("%lld ", ultimo);
+    return ultimo;
+}

@@ -25,4 +25,7 @@ int getMax(long long int *arr, int n);
 void countSort(long long int *arr, int n, int exp);
 void radixSort(long long int *arr, int n);
 
+//FibRecursivo Otimizado
+long long int fibOtimizado(long long int contaPassos, long long int ultimo, long long int penultimo);
+
 #endif
