@@ -35,7 +35,6 @@ long long int fibonaccirecursivo(int n)
 void bubbleSort(long long int *vetor, int n)
 {
     int k, j, aux;
-
     for (k = 1; k < n; k++)
     {
 
